@@ -7,6 +7,7 @@ App::App() {
 #ifdef NDEBUG
 	SetConfigFlags(FLAG_FULLSCREEN_MODE);
 	InitWindow(GetScreenWidth(), GetScreenHeight(), winname);
+	DisableCursor();
 #endif
 #ifndef NDEBUG
 	SetConfigFlags(FLAG_WINDOW_RESIZABLE);
@@ -14,7 +15,7 @@ App::App() {
 #endif
 	SetTargetFPS(fps);
 	//Panel panel(960, 540, 100, 100,RED);
-	Text text("Welcome", Vector2{(float)GetScreenWidth()/5,(float)GetScreenHeight()/2-10},WHITE,GetScreenHeight()/9);
+	Text text("Dashboard", Vector2{(float)GetScreenWidth()/24,(float)GetScreenHeight()/36},WHITE,GetScreenHeight()/9);
 	std::cout << GetScreenWidth() << " " << GetScreenHeight();
 	while (!WindowShouldClose()) {
 		BeginDrawing();
@@ -23,6 +24,8 @@ App::App() {
 		DrawRectangleGradientH(0, 0, GetScreenWidth(), GetScreenHeight(), { 34,74,123,255 }, { 28,89,110,255 });
 		//panel.Draw();
 		text.Draw();
+		if (IsKeyPressed(KEY_ESCAPE))
+			App::~App();
 		EndDrawing();
 	}
 }
