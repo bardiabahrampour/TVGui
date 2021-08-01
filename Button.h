@@ -3,11 +3,11 @@
 //Button State Colors
 
 //Normal State Color
-#define COLOR_NORMAL   (Color){18,23,45}
+#define COLOR_NORMAL   CLITERAL(Color){18,23,45,255}
 //Hovered State Color
-#define COLOR_HOVERED  (Color){25,46,89}
+#define COLOR_HOVERED  CLITERAL(Color){25,46,89,255}
 //Clicked State Color
-#define COLOR_CLICKED  (Color){34,74,123}
+#define COLOR_CLICKED  CLITERAL(Color){34,74,123,255}
 
 
 //Buttons Controlled by the Keyboard 
