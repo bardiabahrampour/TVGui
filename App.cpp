@@ -18,7 +18,7 @@ App::App() {
 	//Panel panel(960, 540, 100, 100,RED);
 	Text text("Dashboard", Vector2{(float)GetScreenWidth()/24,(float)GetScreenHeight()/36},WHITE,GetScreenHeight()/9);
 	std::cout << GetScreenWidth() << " " << GetScreenHeight();
-	Button test(Vector2{ 1920/2,1080/2 }, Vector2{ 1000,1000 }, "Apps");
+	Button test(Vector2{ 100,300 }, BUTTON_GRID_ONE, "Apps");
 	while (!WindowShouldClose()) {
 		BeginDrawing();
 		ClearBackground(background_color);
