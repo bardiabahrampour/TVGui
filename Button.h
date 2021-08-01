@@ -1,5 +1,6 @@
 #pragma once
 #include <raylib.h>
+#include "Text.h"
 //Button State Colors
 
 //Normal State Color
@@ -21,7 +22,9 @@ private:
 		Clicked
 	};
 	Color color{};
-	Rectangle sprite{};
+	Font title_font{};
+	const char* font_path{"data/fonts/default.ttf"};
+	int font_size{GetScreenHeight()/9};
 public:
 	Button(Vector2 p_pos,Vector2 p_size,const char* p_title);
 	~Button();

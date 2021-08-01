@@ -1,5 +1,6 @@
 #include "App.h"
 #include "Text.h"
+#include "Button.h"
 #include <iostream>
 int fps{};
 App::App() {
@@ -17,6 +18,7 @@ App::App() {
 	//Panel panel(960, 540, 100, 100,RED);
 	Text text("Dashboard", Vector2{(float)GetScreenWidth()/24,(float)GetScreenHeight()/36},WHITE,GetScreenHeight()/9);
 	std::cout << GetScreenWidth() << " " << GetScreenHeight();
+	Button test(Vector2{ 1920/2,1080/2 }, Vector2{ 1000,1000 }, "Apps");
 	while (!WindowShouldClose()) {
 		BeginDrawing();
 		ClearBackground(background_color);
@@ -24,6 +26,7 @@ App::App() {
 		DrawRectangleGradientH(0, 0, GetScreenWidth(), GetScreenHeight(), { 34,74,123,255 }, { 28,89,110,255 });
 		//panel.Draw();
 		text.Draw();
+		test.Draw();
 		if (IsKeyPressed(KEY_ESCAPE))
 			App::~App();
 		EndDrawing();
