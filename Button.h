@@ -11,7 +11,16 @@
 #define COLOR_CLICKED  CLITERAL(Color){34,74,123,255}
 //Text Color
 #define COLOR_TEXT    WHITE
+
+
+//Button Grids
+
+//Button Number One Grid
 #define BUTTON_GRID_ONE CLITERAL(Vector2){(float)GetScreenWidth()/5,(float)GetScreenHeight()/2}
+
+
+
+//The Big Size Button(For now The Only Option
 #define BUTTON_BIG_SIZE CLITERAL(Vector2){(float)GetScreenWidth()/20,(float)GetScreenHeight()/4}
 
 
