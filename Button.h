@@ -9,6 +9,8 @@
 #define COLOR_HOVERED  CLITERAL(Color){25,46,89,255}
 //Clicked State Color
 #define COLOR_CLICKED  CLITERAL(Color){34,74,123,255}
+//Text Color
+#define COLOR_TEXT    WHITE
 
 
 //Buttons Controlled by the Keyboard 
@@ -21,6 +23,7 @@ private:
 		Hovered,
 		Clicked
 	};
+	Button_state  state=Normal;
 	Color color{};
 	Font title_font{};
 	const char* font_path{"data/fonts/default.ttf"};

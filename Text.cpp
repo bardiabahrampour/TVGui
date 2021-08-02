@@ -1,7 +1,8 @@
 #include "Text.h"
 #include <iostream>
+#define FONT_SIZE CLITERAL(int){GetScreenHeight()/9}
 Text::Text(const char* p_text, Vector2 p_pos, Color p_color, int p_fontsize) {
-	font = LoadFontEx("data/fonts/default.ttf",GetScreenHeight()/2.16, 0, 0);
+	font = LoadFontEx("data/fonts/default.ttf", FONT_SIZE,0, 0);
 	text = p_text;
 	pos = p_pos;
 	color = p_color;
