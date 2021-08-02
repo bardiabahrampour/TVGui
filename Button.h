@@ -16,12 +16,10 @@
 //Button Grids
 
 //Button Number One Grid
-#define BUTTON_GRID_ONE CLITERAL(Vector2){(float)GetScreenWidth()/5,(float)GetScreenHeight()/2}
-
-
-
+#define BUTTON_GRID_ONE CLITERAL(Vector2){(float)GetScreenWidth()/20,(float)GetScreenHeight()/4}
+#define BUTTON_GRID_TWO CLITERAL(Vector2){(float)GetScreenWidth()/3,(float)GetScreenHeight()/4}
 //The Big Size Button(For now The Only Option
-#define BUTTON_BIG_SIZE CLITERAL(Vector2){(float)GetScreenWidth()/20,(float)GetScreenHeight()/4}
+#define BUTTON_BIG_SIZE CLITERAL(Vector2){(float)GetScreenWidth()/4,(float)GetScreenHeight()/2}
 
 
 

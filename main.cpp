@@ -1,6 +1,6 @@
 #include "App.h"
 #ifndef NDEBUG
-int main(int argc, char** argv) {
+int main() {
 	App app;
 	return 0;
 }
