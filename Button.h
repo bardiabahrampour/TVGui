@@ -11,6 +11,9 @@
 #define COLOR_CLICKED  CLITERAL(Color){34,74,123,255}
 //Text Color
 #define COLOR_TEXT    WHITE
+#define BUTTON_GRID_ONE CLITERAL(Vector2){(float)GetScreenWidth()/5,(float)GetScreenHeight()/2}
+#define BUTTON_BIG_SIZE CLITERAL(Vector2){(float)GetScreenWidth()/20,(float)GetScreenHeight()/4}
+
 
 
 //Buttons Controlled by the Keyboard 
