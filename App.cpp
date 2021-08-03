@@ -15,17 +15,17 @@ App::App() {
 	InitWindow(800, 450, winname);
 #endif
 	SetTargetFPS(fps);
-	Text text("Dashboard", Vector2{(float)GetScreenWidth()/24,(float)GetScreenHeight()/36},WHITE,GetScreenHeight()/9);
+	Text dashboard_text("Dashboard", Vector2{(float)GetScreenWidth()/24,(float)GetScreenHeight()/36},WHITE,GetScreenHeight()/9);
 	std::cout << GetScreenWidth() << " " << GetScreenHeight();
-	Button test(BUTTON_GRID_ONE, BUTTON_BIG_SIZE, "Apps");
-	Button settings(BUTTON_GRID_TWO, BUTTON_BIG_SIZE, "Settings");
+	Button apps(BUTTON_GRID_ONE, 1 , "Apps");
+	Button settings(BUTTON_GRID_TWO, 1 , "Settings");
 	while (!WindowShouldClose()) {
 		BeginDrawing();
 		ClearBackground(background_color);
 		fps++;
 		DrawRectangleGradientH(0, 0, GetScreenWidth(), GetScreenHeight(), { 34,74,123,255 }, { 28,89,110,255 });
-		text.Draw();
-		test.Draw();
+		dashboard_text.Draw();
+		apps.Draw();
 		settings.Draw();
 		if (IsKeyPressed(KEY_ESCAPE))
 			App::~App();

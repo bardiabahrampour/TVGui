@@ -11,15 +11,15 @@
 #define COLOR_CLICKED  CLITERAL(Color){34,74,123,255}
 //Text Color
 #define COLOR_TEXT    WHITE
-
+//text pos
+#define TEXT_POS     CLITERAL(Vector2){pos.x + (float)GetScreenWidth()/64,pos.y + (float)GetScreenHeight()/36}
 
 //Button Grids
-
-//Button Number One Grid
 #define BUTTON_GRID_ONE CLITERAL(Vector2){(float)GetScreenWidth()/20,(float)GetScreenHeight()/4}
 #define BUTTON_GRID_TWO CLITERAL(Vector2){(float)GetScreenWidth()/3,(float)GetScreenHeight()/4}
-//The Big Size Button(For now The Only Option
-#define BUTTON_BIG_SIZE CLITERAL(Vector2){(float)GetScreenWidth()/4,(float)GetScreenHeight()/2}
+
+//Button Sizes
+#define BUTTON_WIDE_SIZE CLITERAL(Vector2){(float)GetScreenWidth()/4,(float)GetScreenHeight()/6}
 
 
 
@@ -33,13 +33,14 @@ private:
 		Hovered,
 		Clicked
 	};
-	Button_state  state=Normal;
+	Button_state  state = Normal;
 	Color color{};
 	Font title_font{};
 	const char* font_path{"data/fonts/default.ttf"};
 	int font_size{GetScreenHeight()/9};
 public:
-	Button(Vector2 p_pos,Vector2 p_size,const char* p_title);
+	int size_state{};   // 0 = small, 1 = wide , 2 = large
+	Button(Vector2 p_pos,int p_size,const char* p_title);
 	~Button();
 	void Draw();
 	Vector2 pos{}, size{};
