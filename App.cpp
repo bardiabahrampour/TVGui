@@ -15,8 +15,8 @@ App::App() {
 	InitWindow(800, 450, winname);
 #endif
 	SetTargetFPS(fps);
-	Text dashboard_text("Dashboard", Vector2{(float)GetScreenWidth()/24,(float)GetScreenHeight()/36},WHITE,GetScreenHeight()/9);
-	std::cout << GetScreenWidth() << " " << GetScreenHeight();
+	Text dashboard_text("Dashboard", Vector2{(float)GetScreenWidth()/24,(float)GetScreenHeight()/36},
+		WHITE,GetScreenHeight()/9);
 	Button apps(BUTTON_GRID_ONE, 1 , "Apps");
 	Button settings(BUTTON_GRID_TWO, 1 , "Settings");
 	while (!WindowShouldClose()) {
