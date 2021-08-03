@@ -1,6 +1,7 @@
 #include "App.h"
 #include "Text.h"
 #include "Button.h"
+#include "Cursor.h"
 #include <iostream>
 int fps{};
 App::App() {
@@ -19,6 +20,7 @@ App::App() {
 		WHITE,GetScreenHeight()/9);
 	Button apps(BUTTON_GRID_ONE, 1 , "Apps");
 	Button settings(BUTTON_GRID_TWO, 1 , "Settings");
+	Cursor c;
 	while (!WindowShouldClose()) {
 		BeginDrawing();
 		ClearBackground(background_color);
@@ -27,6 +29,7 @@ App::App() {
 		dashboard_text.Draw();
 		apps.Draw();
 		settings.Draw();
+		c.Update();
 		if (IsKeyPressed(KEY_ESCAPE))
 			App::~App();
 		EndDrawing();
