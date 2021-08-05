@@ -1,7 +1,6 @@
 #include "App.h"
 #include "Text.h"
 #include "Button.h"
-#include "Cursor.h"
 #include <iostream>
 int fps{};
 App::App() {
@@ -24,12 +23,12 @@ App::App() {
 	while (!WindowShouldClose()) {
 		BeginDrawing();
 		ClearBackground(background_color);
+		c.update_cur();
 		fps++;
 		DrawRectangleGradientH(0, 0, GetScreenWidth(), GetScreenHeight(), { 34,74,123,255 }, { 28,89,110,255 });
 		dashboard_text.Draw();
-		apps.Draw();
-		settings.Draw();
-		c.Update();
+		apps.Draw(c);
+		settings.Draw(c);
 		if (IsKeyPressed(KEY_ESCAPE))
 			App::~App();
 		EndDrawing();

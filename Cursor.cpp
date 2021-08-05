@@ -1,24 +1,19 @@
 #include "Cursor.h"
 
-Cursor::Cursor() {
-	
+
+Cursor::Cursor(){
+	curpos = BUTTON_GRID_ONE;
 }
+
 
 void
-Cursor::Update() {
-	int kp{};
-#ifdef NDEBUG
-	DrawRectangle(pos.x, pos.y, size.x, size.y, TRANSPARENT);
-#endif
-#ifndef NDEBUG
-    DrawRectangle(pos.x, pos.y, size.x, size.y, RED);
-#endif
-	switch (IsKeyPressed(kp)) {
-	case KEY_LEFT:
-		pos.x -= 5;
-	case KEY_RIGHT:
-		pos.x += 5;
+Cursor::update_cur() {
+	if (curpos.x == BUTTON_GRID_ONE.x && curpos.y == BUTTON_GRID_ONE.y) {
+		if (IsKeyPressed(KEY_RIGHT))
+			curpos = BUTTON_GRID_TWO;
+	}
+	else if (curpos.x == BUTTON_GRID_TWO.x && curpos.y == BUTTON_GRID_TWO.y) {
+		if (IsKeyPressed(KEY_LEFT))
+			curpos = BUTTON_GRID_ONE;
 	}
 }
-
-Cursor::~Cursor(){}

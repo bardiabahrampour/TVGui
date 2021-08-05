@@ -1,6 +1,6 @@
 #pragma once
 #include <raylib.h>
-#include "Text.h"
+#include "Cursor.h"
 //Button State Colors
 
 //Normal State Color
@@ -27,13 +27,6 @@
 class Button
 {
 private:
-	//Button States
-	enum Button_state {
-		Normal,
-		Hovered,
-		Clicked
-	};
-	Button_state  state = Normal;
 	Color color{};
 	Font title_font{};
 	const char* font_path{"data/fonts/default.ttf"};
@@ -42,8 +35,16 @@ public:
 	int size_state{};   // 0 = small, 1 = wide , 2 = large
 	Button(Vector2 p_pos,int p_size,const char* p_title);
 	~Button();
-	void Draw();
+	void Draw(Cursor c);
 	Vector2 pos{}, size{};
 	const char* title{};
+	Rectangle sprite{};
+	//Button States
+	enum Button_state {
+		Normal,
+		Hovered,
+		Clicked
+	};
+	Button_state  state = Normal;
 };
 
