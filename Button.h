@@ -33,7 +33,7 @@ private:
 	int font_size{GetScreenHeight()/9};
 public:
 	int size_state{};   // 0 = small, 1 = wide , 2 = large
-	Button(Vector2 p_pos,int p_size,const char* p_title);
+	Button(Vector2 p_pos,int p_size,const char* p_title,Cursor &c);
 	~Button();
 	void Draw(Cursor c);
 	Vector2 pos{}, size{};
