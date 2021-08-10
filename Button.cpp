@@ -1,5 +1,6 @@
 //Button Behaviours
 #include "Button.h"
+#include <iostream>
 //Function to Init Buttons (Must be used after SetTargetFps() and before the main loop
 Button::Button(Vector2 p_pos, int p_size, const char* p_title ,Cursor &c) {
 	title_font = LoadFontEx(font_path, font_size, 0, 0);
@@ -9,6 +10,7 @@ Button::Button(Vector2 p_pos, int p_size, const char* p_title ,Cursor &c) {
 	else size = pos;
 	title = p_title;
 	c.add_pos(pos);
+	
 }
 
 
@@ -28,8 +30,22 @@ Button::Draw(Cursor c) {
 	else {
 		state = Normal;
 	}
+	if (state == Hovered) {
+		if (IsKeyPressed(KEY_ENTER)) {
+			Click();
+		}
+	}
 }
 
+bool
+Button::Click() {
+	state = Clicked;
+	if (((int)GetTime() % 350) == 0) {
+		state = Normal;
+	}
+	clicked = true;
+	return true;
+}
 
 Button::~Button() {
 	UnloadFont(title_font);

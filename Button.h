@@ -20,7 +20,7 @@
 
 //Button Sizes
 #define BUTTON_WIDE_SIZE CLITERAL(Vector2){(float)GetScreenWidth()/4,(float)GetScreenHeight()/6}
-
+#define BUTTON_WIDE 1
 
 
 //Buttons Controlled by the Keyboard 
@@ -36,6 +36,8 @@ public:
 	Button(Vector2 p_pos,int p_size,const char* p_title,Cursor &c);
 	~Button();
 	void Draw(Cursor c);
+	bool Click();
+	bool clicked{ false };
 	Vector2 pos{}, size{};
 	const char* title{};
 	Rectangle sprite{};
@@ -47,4 +49,3 @@ public:
 	};
 	Button_state  state = Normal;
 };
-
