@@ -16,6 +16,7 @@ Button::Button(Vector2 p_pos, int p_size, const char* p_title ,Cursor &c) {
 
 void
 Button::Draw(Cursor c) {
+	std::cout<<state<<std::endl;
 	if (state == Normal)
 		color = COLOR_NORMAL;
 	else if (state == Hovered)

@@ -7,7 +7,7 @@ private:
 	Rectangle shape{};
 	const int posx{ 0 }, posy{ 0 };
 public:
-	Background();
+	Background(Color colone,Color coltwo);
 	void Draw();
 	~Background();
 };

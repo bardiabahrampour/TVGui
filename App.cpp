@@ -21,17 +21,17 @@ App::App() {
 
 #endif
 	SetTargetFPS(fps);
-
+	AppsPanel a;
 
 
 //----- Variables ------------------------------------------------------------------------------------
-	Text dashboard_text("Dashboard", DASHBOARD__TEXT_POS,
+	/*Text dashboard_text("Dashboard", DASHBOARD__TEXT_POS,
 		WHITE,TEXT_SIZE);
 	Cursor c;
 	Button apps(BUTTON_GRID_ONE, 1 , "Apps",c);
 	Button settings(BUTTON_GRID_TWO, 1 , "Settings",c);
 	Panel apps_panel(0, 0, 1920, 1080, BLACK);
-	Panel settings_panel(0, 0, 1920, 1080, WHITE);
+	Panel settings_panel(0, 0, 1920, 1080, WHITE);*/
 //---------------------------------------------------------------------------------------------------
 
 
@@ -39,13 +39,13 @@ App::App() {
 	while (!WindowShouldClose()) {
 		BeginDrawing();
 		ClearBackground(background_color);
-		DrawRectangleGradientH(0, 0, GetScreenWidth(), GetScreenHeight(), { 34,74,123,255 }, { 28,89,110,255 });
-
+		//DrawRectangleGradientH(0, 0, GetScreenWidth(), GetScreenHeight(), { 34,74,123,255 }, { 28,89,110,255 });
+		a.Draw();
 //------- Draw Everything ------------------------------
-		dashboard_text.Draw();
+		/*dashboard_text.Draw();
 		apps.Draw(c);
 		settings.Draw(c);
-		c.update_cur();
+		c.update_cur();*/
 //------------------------------------------------------
 
 

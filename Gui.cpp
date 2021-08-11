@@ -1,11 +1,10 @@
 #include "Gui.h"
 
-AppsPanel::AppsPanel():
-	background(0, 0, GetScreenWidth(), GetScreenHeight(), BLACK),
-	back(BUTTON_GRID_ONE,BUTTON_WIDE,"Back",c),
-	apps_text("Apps",DASHBOARD__TEXT_POS,WHITE,TEXT_SIZE) {
-	
-}
+AppsPanel::AppsPanel() :
+	background(APPS_PANEL_COL_ONE, APPS_PANEL_COL_TWO),
+	back(BUTTON_GRID_ONE, BUTTON_WIDE, "Back", c),
+	apps_text("Apps", DASHBOARD__TEXT_POS, WHITE, TEXT_SIZE),
+	c(1){}
 
 void
 AppsPanel::Draw() {
@@ -15,8 +14,4 @@ AppsPanel::Draw() {
 	c.update_cur();
 }
 
-AppsPanel::~AppsPanel() {
-	background.~Panel();
-	back.~Button();
-
-}
+AppsPanel::~AppsPanel() {}
