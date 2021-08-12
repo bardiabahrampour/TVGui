@@ -1,7 +1,7 @@
 #include "Cursor.h"
 
 
-Cursor::Cursor(int i){
+Cursor::Cursor(){
 	curpos = BUTTON_GRID_ONE;
 }
 

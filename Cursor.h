@@ -9,6 +9,6 @@ public:
 	Vector2 curpos{};
 	void update_cur();
 	void add_pos(Vector2 pos);
-	Cursor(int i);
+	Cursor();
 	bool grid_one{false}, grid_two{false}, grid_three{false}, grid_four{false}, grid_five{false};
 };

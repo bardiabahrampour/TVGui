@@ -4,11 +4,11 @@
 //Button State Colors
 
 //Normal State Color
-#define COLOR_NORMAL   CLITERAL(Color){18,23,45,255}
+#define COLOR_NORMAL   CLITERAL(Color){0,0,0,60}
 //Hovered State Color
-#define COLOR_HOVERED  CLITERAL(Color){25,46,89,255}
+#define COLOR_HOVERED  CLITERAL(Color){50,50,50,50}
 //Clicked State Color
-#define COLOR_CLICKED  CLITERAL(Color){34,74,123,255}
+#define COLOR_CLICKED  CLITERAL(Color){100,100,100,60}
 //Text Color
 #define COLOR_TEXT    WHITE
 //text pos

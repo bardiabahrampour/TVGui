@@ -10,13 +10,11 @@ Button::Button(Vector2 p_pos, int p_size, const char* p_title ,Cursor &c) {
 	else size = pos;
 	title = p_title;
 	c.add_pos(pos);
-	
 }
 
 
 void
 Button::Draw(Cursor c) {
-	std::cout<<state<<std::endl;
 	if (state == Normal)
 		color = COLOR_NORMAL;
 	else if (state == Hovered)
