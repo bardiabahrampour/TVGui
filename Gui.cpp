@@ -1,5 +1,5 @@
 #include "Gui.h"
-
+#include <iostream>
 //apps panel
 AppsPanel::AppsPanel() :
 	background(APPS_PANEL_COL_ONE, APPS_PANEL_COL_TWO),
@@ -15,12 +15,6 @@ AppsPanel::Draw() {
 	back.Draw(c);
 	apps_text.Draw();
 	c.update_cur();
-	if (back.clicked) {
-		open = false;
-	}
-	else if (!back.clicked){
-		open = true;
-	}
 }
 
 AppsPanel::~AppsPanel() {}
@@ -40,12 +34,30 @@ Dashboard::Draw() {
 	apps.Draw(c);
 	dashboard_text.Draw();
 	c.update_cur();
-	if (apps.clicked) {
-		open_apps = true;
-	}
-	else if(!apps.clicked){
-		open_apps = false;
-	}
 }
 
 Dashboard::~Dashboard() {}
+
+//gui
+Gui::Gui() {}
+
+void
+Gui::update() {
+	if (dash.apps.clicked) {
+		apps_is_open = true;
+		dash.apps.clicked = false;
+	}
+	else if (apps.back.clicked) {
+		apps_is_open = false;
+		apps.back.clicked = false;
+	}
+	
+	if (apps_is_open) {
+		apps.Draw();
+	}
+	else if(!apps_is_open){
+		dash.Draw();
+	}
+}
+
+Gui::~Gui() {}

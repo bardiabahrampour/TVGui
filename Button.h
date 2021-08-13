@@ -31,12 +31,14 @@ private:
 	Font title_font{};
 	const char* font_path{"data/fonts/default.ttf"};
 	int font_size{GetScreenHeight()/9};
+	int fps{};
 public:
 	int size_state{};   // 0 = small, 1 = wide , 2 = large
 	Button(Vector2 p_pos,int p_size,const char* p_title,Cursor &c);
 	~Button();
 	void Draw(Cursor c);
 	bool Click();
+	void animate();
 	bool clicked{ false };
 	Vector2 pos{}, size{};
 	const char* title{};

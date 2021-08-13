@@ -15,6 +15,7 @@ Button::Button(Vector2 p_pos, int p_size, const char* p_title ,Cursor &c) {
 
 void
 Button::Draw(Cursor c) {
+	fps++;
 	if (state == Normal)
 		color = COLOR_NORMAL;
 	else if (state == Hovered)
@@ -38,12 +39,22 @@ Button::Draw(Cursor c) {
 
 bool
 Button::Click() {
+	clicked = true;
 	state = Clicked;
-	if (((int)GetTime() % 350) == 0) {
+	if (((int)GetFrameTime() % 35000) == 0) {
 		state = Normal;
 	}
-	clicked = true;
 	return true;
+}
+
+void
+Button::animate() {
+	if ((fps % 30) == 0) {
+		color.a -= 100;
+	}
+	else if (color.a == 0) {
+		color.a == color.a;
+	}
 }
 
 Button::~Button() {

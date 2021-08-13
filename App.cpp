@@ -21,19 +21,11 @@ App::App() {
 
 #endif
 	SetTargetFPS(fps);
-	//AppsPanel a;
-	Dashboard dash;
-	AppsPanel apps;
+	Gui gui;
 	while (!WindowShouldClose()) {
-		std::cout << apps.open << std::endl;
 		BeginDrawing();
 		ClearBackground(background_color);
-		if (dash.open_apps || apps.open) {
-			apps.Draw();
-		}
-		else if(!apps.open){
-			dash.Draw();
-		}
+		gui.update();
 		if (IsKeyPressed(KEY_ESCAPE))
 			App::~App();
 		EndDrawing();

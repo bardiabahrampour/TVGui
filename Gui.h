@@ -24,9 +24,9 @@
 class AppsPanel {
 	Cursor c;
 	Background background;
-	Button back;
 	Text apps_text;
 public:
+	Button back;
 	bool open{ false };
 	AppsPanel();
 	void Draw();
@@ -37,12 +37,23 @@ public:
 class Dashboard {
 	Cursor c;
 	Background background;
-	Button apps;
 	Text dashboard_text;
 public:
+	Button apps;
 	bool open_apps{ false };
 	bool hidden{ false };
 	Dashboard();
 	void Draw();
 	~Dashboard();
+};
+
+//Gui
+class Gui {
+	Dashboard dash;
+	AppsPanel apps;
+	bool apps_is_open{ false };
+public:
+	Gui();
+	void update();
+	~Gui();
 };
