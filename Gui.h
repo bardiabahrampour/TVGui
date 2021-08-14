@@ -16,10 +16,13 @@
 // Definitions
 #define DASHBOARD__TEXT_POS CLITERAL(Vector2){(float)GetScreenWidth()/24, (float)GetScreenHeight()/36}
 #define TEXT_SIZE CLITERAL(int){GetScreenHeight()/9}
-#define APPS_PANEL_COL_ONE CLITERAL (Color){101,78,163,200}
-#define APPS_PANEL_COL_TWO CLITERAL (Color){234,175,200,200}
-#define DASHBOARD_COL_ONE  CLITERAL (Color){71,118,230,200}
-#define DASHBOARD_COL_TWO  CLITERAL (Color){142,84,233,200}
+
+#define PANEL_COL_ONE CLITERAL (Color){101,78,163,200}
+#define PANEL_COL_TWO CLITERAL (Color){234,175,200,200}
+
+//#define DASHBOARD_COL_ONE  CLITERAL (Color){71,118,230,200}
+//#define DASHBOARD_COL_TWO  CLITERAL (Color){142,84,233,200}
+
 //Apps
 class AppsPanel {
 	Cursor c;
@@ -40,6 +43,7 @@ class Dashboard {
 	Text dashboard_text;
 public:
 	Button apps;
+	Button music;
 	bool open_apps{ false };
 	bool hidden{ false };
 	Dashboard();
@@ -47,11 +51,26 @@ public:
 	~Dashboard();
 };
 
+//Music
+class MusicPanel {
+	Cursor c;
+	Background background;
+	Text music_text;
+public:
+	Button back;
+	bool open{ false };
+	MusicPanel();
+	void Draw();
+	~MusicPanel();
+};
+
 //Gui
 class Gui {
 	Dashboard dash;
 	AppsPanel apps;
+	MusicPanel music;
 	bool apps_is_open{ false };
+	bool music_is_open{ false };
 public:
 	Gui();
 	void update();

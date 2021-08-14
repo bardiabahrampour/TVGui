@@ -2,7 +2,7 @@
 #include <iostream>
 //apps panel
 AppsPanel::AppsPanel() :
-	background(APPS_PANEL_COL_ONE, APPS_PANEL_COL_TWO),
+	background(PANEL_COL_ONE, PANEL_COL_TWO),
 	back(BUTTON_GRID_ONE, BUTTON_WIDE, "Back", c),
 	apps_text("Apps", DASHBOARD__TEXT_POS, WHITE, TEXT_SIZE)
 {
@@ -21,9 +21,10 @@ AppsPanel::~AppsPanel() {}
 
 //dashboard
 Dashboard::Dashboard() :
-	background(DASHBOARD_COL_ONE, DASHBOARD_COL_TWO),
+	background(PANEL_COL_ONE,PANEL_COL_TWO),
 	apps(BUTTON_GRID_ONE, BUTTON_WIDE, "Apps", c),
-	dashboard_text("Dashboard", DASHBOARD__TEXT_POS, WHITE, TEXT_SIZE)
+	dashboard_text("Dashboard", DASHBOARD__TEXT_POS, WHITE, TEXT_SIZE),
+	music(BUTTON_GRID_TWO,BUTTON_WIDE,"Music",c)
 {
 
 }
@@ -34,9 +35,28 @@ Dashboard::Draw() {
 	apps.Draw(c);
 	dashboard_text.Draw();
 	c.update_cur();
+	music.Draw(c);
 }
 
 Dashboard::~Dashboard() {}
+
+//music panel
+MusicPanel::MusicPanel() :
+	background(PANEL_COL_ONE,PANEL_COL_TWO),
+	back(BUTTON_GRID_ONE,BUTTON_WIDE,"Back",c),
+	music_text("Music", DASHBOARD__TEXT_POS,WHITE,TEXT_SIZE){
+
+}
+
+void
+MusicPanel::Draw() {
+	background.Draw();
+	back.Draw(c);
+	music_text.Draw();
+	c.update_cur();
+}
+
+MusicPanel::~MusicPanel() {}
 
 //gui
 Gui::Gui() {}
@@ -47,15 +67,26 @@ Gui::update() {
 		apps_is_open = true;
 		dash.apps.clicked = false;
 	}
+	else if (dash.music.clicked) {
+		music_is_open = true;
+		dash.music.clicked = false;
+	}
 	else if (apps.back.clicked) {
 		apps_is_open = false;
 		apps.back.clicked = false;
+	}
+	else if (music.back.clicked) {
+		music_is_open = false;
+		music.back.clicked = false;
 	}
 	
 	if (apps_is_open) {
 		apps.Draw();
 	}
-	else if(!apps_is_open){
+	else if (music_is_open) {
+		music.Draw();
+	}
+	else{
 		dash.Draw();
 	}
 }
