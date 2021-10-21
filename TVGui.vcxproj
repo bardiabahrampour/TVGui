@@ -154,6 +154,7 @@
     <ClCompile Include="tvApp.cpp" />
     <ClCompile Include="tvBackground.cpp" />
     <ClCompile Include="tvTheme.cpp" />
+    <ClCompile Include="tvWindow.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="icon.ico" />
@@ -165,6 +166,7 @@
     <ClInclude Include="tvApp.h" />
     <ClInclude Include="tvBackground.h" />
     <ClInclude Include="tvTheme.h" />
+    <ClInclude Include="tvWindow.h" />
   </ItemGroup>
   <ItemGroup>
     <Xsd Include="app.xml">
