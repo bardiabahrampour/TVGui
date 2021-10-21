@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<app>
+	<config>
+		<appname>TvGui</appname>
+		<version>0.0.1</version>
+	</config>
+	<background color1='#fff32' color2='#fff221'></background>
+	<menu name='main'>
+		<button style='wide' color='#ff3212'>Hello World!</button>
+	</menu>
+</app>

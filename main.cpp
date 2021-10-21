@@ -1,13 +1,11 @@
-#include "App.h"
-#ifndef NDEBUG
-int main() {
-	App app;
+#include "tvApp.h"
+
+INT CALLBACK WinMain(
+	_In_ HINSTANCE hInstance,
+	_In_opt_ HINSTANCE hPrevInstance,
+	_In_ LPSTR lpCmdLine,
+	_In_ int nShowCmd)
+{
+	tvApp app;
 	return 0;
 }
-#endif
-#ifdef NDEBUG
-int WinMain() {
-	App app;
-	return 0;
-}
-#endif
