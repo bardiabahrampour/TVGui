@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structopt__false" xml:lang="en-US">
+<title>opt_false Struct Reference</title>
+<indexterm><primary>opt_false</primary></indexterm>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structopt__false_1adf1eb3ad7c3e284bd861d80d6817174f"/>enum { <emphasis role="strong">value</emphasis> = 0
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structstrconv__pcdata__impl" xml:lang="en-US">
+<title>strconv_pcdata_impl&lt; opt_trim, opt_eol, opt_escape &gt; Struct Template Reference</title>
+<indexterm><primary>strconv_pcdata_impl&lt; opt_trim, opt_eol, opt_escape &gt;</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structstrconv__pcdata__impl_1a0bd2c80c1df06c93d77332a4bb63b5b8"/>static char_t * <emphasis role="strong">parse</emphasis> (char_t *s)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

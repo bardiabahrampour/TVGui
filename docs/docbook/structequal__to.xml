@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structequal__to" xml:lang="en-US">
+<title>equal_to Struct Reference</title>
+<indexterm><primary>equal_to</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structequal__to_1a6cb8f069b02593f2e8bbe7f3960e47b9"/>template&lt;typename T &gt; </para><para>bool <emphasis role="strong">operator()</emphasis> (const T &amp;lhs, const T &amp;rhs) const</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

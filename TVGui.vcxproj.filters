@@ -70,6 +70,9 @@
     <ClInclude Include="tvWindow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="tvString.hpp">
+      <Filter>Gui Library</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Xsd Include="app.xml">

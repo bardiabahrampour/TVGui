@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structwchar__selector_3_014_01_4" xml:lang="en-US">
+<title>wchar_selector&lt; 4 &gt; Struct Reference</title>
+<indexterm><primary>wchar_selector&lt; 4 &gt;</primary></indexterm>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structwchar__selector_3_014_01_4_1af45ac603ab6fefec66e5c29044b4eed6"/>typedef uint32_t <emphasis role="strong">type</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structwchar__selector_3_014_01_4_1a7d7c585ae0819660112b8c8683971b97"/>typedef <link linkend="_structutf32__counter">utf32_counter</link> <emphasis role="strong">counter</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structwchar__selector_3_014_01_4_1a48042e7fe51c4661397ae7afe3905243"/>typedef <link linkend="_structutf32__writer">utf32_writer</link> <emphasis role="strong">writer</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structwchar__selector_3_014_01_4_1add0a8302007d5e5def40457afc32ba78"/>typedef <link linkend="_structutf32__decoder">utf32_decoder</link>&lt; <link linkend="_structopt__false">opt_false</link> &gt; <emphasis role="strong">decoder</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

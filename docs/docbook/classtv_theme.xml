@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classtv_theme" xml:lang="en-US">
+<title>tvTheme Class Reference</title>
+<indexterm><primary>tvTheme</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classtv_theme_1a8ccf52f3c829806fd3e845522d27a907"/>Color <emphasis role="strong">GetPrimaryColor</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classtv_theme_1ad43eaa9456cb5d18fb66c50f2d99f54d"/>Color <emphasis role="strong">GetSecondaryColor</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classtv_theme_1aa2a883271185a71641cd534e437f4ad9"/>std::string <emphasis role="strong">GetName</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classtv_theme_1a70632128bd2d3c651f19daee70199e07"/>void <emphasis role="strong">SetName</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+D:/tvgui/TVGui/tvTheme.h</section>

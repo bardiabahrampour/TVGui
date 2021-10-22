@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structxpath__context" xml:lang="en-US">
+<title>xpath_context Struct Reference</title>
+<indexterm><primary>xpath_context</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxpath__context_1ab5d7a8d5a14ef695b93e15cfb0e20386"/><emphasis role="strong">xpath_context</emphasis> (const xpath_node &amp;n_, size_t position_, size_t size_)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxpath__context_1ace8fbb8121820bc5054605c166101273"/>xpath_node <emphasis role="strong">n</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__context_1add1fc9bd16b21d3a8d7a4bd63c60af07"/>size_t <emphasis role="strong">position</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__context_1a976ffb0eff84a7779c97e589c1785d1c"/>size_t <emphasis role="strong">size</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

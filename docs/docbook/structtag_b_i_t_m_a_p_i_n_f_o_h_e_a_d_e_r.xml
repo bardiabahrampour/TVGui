@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structtag_b_i_t_m_a_p_i_n_f_o_h_e_a_d_e_r" xml:lang="en-US">
+<title>tagBITMAPINFOHEADER Struct Reference</title>
+<indexterm><primary>tagBITMAPINFOHEADER</primary></indexterm>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structtag_b_i_t_m_a_p_i_n_f_o_h_e_a_d_e_r_1a78b47f256953606cbf23cd665452a263"/>DWORD <emphasis role="strong">biSize</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structtag_b_i_t_m_a_p_i_n_f_o_h_e_a_d_e_r_1a4bbc605184be98c4da36f707f7695e0f"/>LONG <emphasis role="strong">biWidth</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structtag_b_i_t_m_a_p_i_n_f_o_h_e_a_d_e_r_1aa18cf290b7f7a6d1cc8058feae85ab68"/>LONG <emphasis role="strong">biHeight</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structtag_b_i_t_m_a_p_i_n_f_o_h_e_a_d_e_r_1a261e0f0a578bcd4d53a4a221e6ebe2fa"/>WORD <emphasis role="strong">biPlanes</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structtag_b_i_t_m_a_p_i_n_f_o_h_e_a_d_e_r_1a713c58f9cf7d5f115938d189d59fadf5"/>WORD <emphasis role="strong">biBitCount</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structtag_b_i_t_m_a_p_i_n_f_o_h_e_a_d_e_r_1a6b50d93eae77d44af8907740e337583d"/>DWORD <emphasis role="strong">biCompression</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structtag_b_i_t_m_a_p_i_n_f_o_h_e_a_d_e_r_1ac69dfda61a32d8ec53dd11ef165d198b"/>DWORD <emphasis role="strong">biSizeImage</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structtag_b_i_t_m_a_p_i_n_f_o_h_e_a_d_e_r_1ae363738b6e92248a7be41f4e7ed55c54"/>LONG <emphasis role="strong">biXPelsPerMeter</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structtag_b_i_t_m_a_p_i_n_f_o_h_e_a_d_e_r_1ac6226594275d045ff0d03849945d920f"/>LONG <emphasis role="strong">biYPelsPerMeter</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structtag_b_i_t_m_a_p_i_n_f_o_h_e_a_d_e_r_1adbf6bd52839895672030a734d2ae752f"/>DWORD <emphasis role="strong">biClrUsed</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structtag_b_i_t_m_a_p_i_n_f_o_h_e_a_d_e_r_1a637282b108fc8ac3bdf41479f9931ccb"/>DWORD <emphasis role="strong">biClrImportant</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/raywin.h</section>

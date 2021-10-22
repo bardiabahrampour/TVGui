@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structutf16__decoder" xml:lang="en-US">
+<title>utf16_decoder&lt; opt_swap &gt; Struct Template Reference</title>
+<indexterm><primary>utf16_decoder&lt; opt_swap &gt;</primary></indexterm>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structutf16__decoder_1a6464d996125f65a0fc84d5fa5f11b878"/>typedef uint16_t <emphasis role="strong">type</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structutf16__decoder_1a76791119a94c0105611212b8ee1ea86d"/>template&lt;typename Traits &gt; </para><para>static Traits::value_type <emphasis role="strong">process</emphasis> (const uint16_t *data, size_t size, typename Traits::value_type result, Traits)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

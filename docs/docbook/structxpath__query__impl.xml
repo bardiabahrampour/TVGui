@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structxpath__query__impl" xml:lang="en-US">
+<title>xpath_query_impl Struct Reference</title>
+<indexterm><primary>xpath_query_impl</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxpath__query__impl_1afcf45bb9a20a4117b1e963d83277aa7f"/>static <link linkend="_structxpath__query__impl">xpath_query_impl</link> * <emphasis role="strong">create</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__query__impl_1a7233d3b89ed2f20f76b85de918e963fa"/>static void <emphasis role="strong">destroy</emphasis> (<link linkend="_structxpath__query__impl">xpath_query_impl</link> *impl)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxpath__query__impl_1ad25499e0c8391005e3a1a60633d631fe"/><link linkend="_classxpath__ast__node">xpath_ast_node</link> * <emphasis role="strong">root</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__query__impl_1ae568b8642d48e729f2ccc2a50467c847"/><link linkend="_structxpath__allocator">xpath_allocator</link> <emphasis role="strong">alloc</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__query__impl_1a3a8af3ceed6a504567656ec6d1b62641"/><link linkend="_structxpath__memory__block">xpath_memory_block</link> <emphasis role="strong">block</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__query__impl_1a18fcf00c5015e9690a9eb7eb8e752f13"/>bool <emphasis role="strong">oom</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

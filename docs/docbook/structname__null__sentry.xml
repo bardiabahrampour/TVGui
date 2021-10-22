@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structname__null__sentry" xml:lang="en-US">
+<title>name_null_sentry Struct Reference</title>
+<indexterm><primary>name_null_sentry</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structname__null__sentry_1ae5d1789457736acd9d669bc4765bd811"/><emphasis role="strong">name_null_sentry</emphasis> (xml_node_struct *node_)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structname__null__sentry_1ab85be926948869639d135bc03324a6f0"/>xml_node_struct * <emphasis role="strong">node</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structname__null__sentry_1a8847bb799593cb873c863ab6f88299d6"/>char_t * <emphasis role="strong">name</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

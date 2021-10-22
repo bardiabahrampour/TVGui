@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structxpath__parser" xml:lang="en-US">
+<title>xpath_parser Struct Reference</title>
+<indexterm><primary>xpath_parser</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>struct <link linkend="_structxpath__parser_1_1binary__op__t">binary_op_t</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxpath__parser_1ad17156b91b468a75af0d3dcbb672a700"/><link linkend="_classxpath__ast__node">xpath_ast_node</link> * <emphasis role="strong">error</emphasis> (const char *message)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1a72e60f73dc6a4b8a68e07700ec42b51c"/><link linkend="_classxpath__ast__node">xpath_ast_node</link> * <emphasis role="strong">error_oom</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1a0b6fc1d3997b77fc267dc829083bff79"/><link linkend="_classxpath__ast__node">xpath_ast_node</link> * <emphasis role="strong">error_rec</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1ae33adcc8eb125124967d95297daff351"/>void * <emphasis role="strong">alloc_node</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1a7c456594d93766567380586702112539"/><link linkend="_classxpath__ast__node">xpath_ast_node</link> * <emphasis role="strong">alloc_node</emphasis> (ast_type_t type, xpath_value_type rettype, const char_t *value)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1a7ea2fda8ea440556700f98c35436025f"/><link linkend="_classxpath__ast__node">xpath_ast_node</link> * <emphasis role="strong">alloc_node</emphasis> (ast_type_t type, xpath_value_type rettype, double value)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1aeca92802c6b3324b967751b5b022360a"/><link linkend="_classxpath__ast__node">xpath_ast_node</link> * <emphasis role="strong">alloc_node</emphasis> (ast_type_t type, xpath_value_type rettype, xpath_variable *value)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1a2f3c21a6778e029ce2c81e3a9b89f6b2"/><link linkend="_classxpath__ast__node">xpath_ast_node</link> * <emphasis role="strong">alloc_node</emphasis> (ast_type_t type, xpath_value_type rettype, <link linkend="_classxpath__ast__node">xpath_ast_node</link> *left=0, <link linkend="_classxpath__ast__node">xpath_ast_node</link> *right=0)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1af720dabc23d15f42e9432d041fbb08ca"/><link linkend="_classxpath__ast__node">xpath_ast_node</link> * <emphasis role="strong">alloc_node</emphasis> (ast_type_t type, <link linkend="_classxpath__ast__node">xpath_ast_node</link> *left, axis_t axis, nodetest_t test, const char_t *contents)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1a014c1f8f702519683b9421e7f61cd7b1"/><link linkend="_classxpath__ast__node">xpath_ast_node</link> * <emphasis role="strong">alloc_node</emphasis> (ast_type_t type, <link linkend="_classxpath__ast__node">xpath_ast_node</link> *left, <link linkend="_classxpath__ast__node">xpath_ast_node</link> *right, predicate_t test)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1a109e4c472bb76911a2b49ee741d400af"/>const char_t * <emphasis role="strong">alloc_string</emphasis> (const <link linkend="_structxpath__lexer__string">xpath_lexer_string</link> &amp;value)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1a7acb32147ef3aac058f94257b57ff14f"/><link linkend="_classxpath__ast__node">xpath_ast_node</link> * <emphasis role="strong">parse_function</emphasis> (const <link linkend="_structxpath__lexer__string">xpath_lexer_string</link> &amp;name, size_t argc, <link linkend="_classxpath__ast__node">xpath_ast_node</link> *args[2])</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1ad67ec26e0e286ca1bb5144a79e3a3583"/>axis_t <emphasis role="strong">parse_axis_name</emphasis> (const <link linkend="_structxpath__lexer__string">xpath_lexer_string</link> &amp;name, bool &amp;specified)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1a7b4555d7bfdb90971333c46963d5d791"/>nodetest_t <emphasis role="strong">parse_node_test_type</emphasis> (const <link linkend="_structxpath__lexer__string">xpath_lexer_string</link> &amp;name)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1a320728b83e426c4874066d633ffe65d9"/><link linkend="_classxpath__ast__node">xpath_ast_node</link> * <emphasis role="strong">parse_primary_expression</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1a0530aefc1445c4eac4614e895dd0a219"/><link linkend="_classxpath__ast__node">xpath_ast_node</link> * <emphasis role="strong">parse_filter_expression</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1a7daf146822e199d8ad564be25daa49db"/><link linkend="_classxpath__ast__node">xpath_ast_node</link> * <emphasis role="strong">parse_step</emphasis> (<link linkend="_classxpath__ast__node">xpath_ast_node</link> *set)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1ab50d8b75f78b7e2eb77a1cf6872daa00"/><link linkend="_classxpath__ast__node">xpath_ast_node</link> * <emphasis role="strong">parse_relative_location_path</emphasis> (<link linkend="_classxpath__ast__node">xpath_ast_node</link> *set)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1aae61a2931ba0b0c713b5d043f1cef6d4"/><link linkend="_classxpath__ast__node">xpath_ast_node</link> * <emphasis role="strong">parse_location_path</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1a9f5cab421e931c46b0598ecec60c5591"/><link linkend="_classxpath__ast__node">xpath_ast_node</link> * <emphasis role="strong">parse_path_or_unary_expression</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1adfd2ab26b101a03ed79d7c3041539115"/><link linkend="_classxpath__ast__node">xpath_ast_node</link> * <emphasis role="strong">parse_expression_rec</emphasis> (<link linkend="_classxpath__ast__node">xpath_ast_node</link> *lhs, int limit)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1a8c825aa3579971d8f63f1c07b78ac52d"/><link linkend="_classxpath__ast__node">xpath_ast_node</link> * <emphasis role="strong">parse_expression</emphasis> (int limit=0)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1a3f5b4a04f4d0a0a44962d9825a86ed0d"/><emphasis role="strong">xpath_parser</emphasis> (const char_t *query, xpath_variable_set *variables, <link linkend="_structxpath__allocator">xpath_allocator</link> *alloc, xpath_parse_result *result)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1a581e576958037e1ab682fb952b3ada38"/><link linkend="_classxpath__ast__node">xpath_ast_node</link> * <emphasis role="strong">parse</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxpath__parser_1ab865a9a777b466365b3c4bd50290189d"/>static <link linkend="_classxpath__ast__node">xpath_ast_node</link> * <emphasis role="strong">parse</emphasis> (const char_t *query, xpath_variable_set *variables, <link linkend="_structxpath__allocator">xpath_allocator</link> *alloc, xpath_parse_result *result)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxpath__parser_1ac34f5b21ef406bec944286eee2f45836"/><link linkend="_structxpath__allocator">xpath_allocator</link> * <emphasis role="strong">_alloc</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1a50106db584946e67acd080ef5391a0f4"/><link linkend="_classxpath__lexer">xpath_lexer</link> <emphasis role="strong">_lexer</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1aaf5ea5d5be97cdd93adc7a719d8edc1c"/>const char_t * <emphasis role="strong">_query</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1a3e0adfea7cc81c08b97ee1375831df6c"/>xpath_variable_set * <emphasis role="strong">_variables</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1a9370fb875bfc49ca6e35f3165ecb1692"/>xpath_parse_result * <emphasis role="strong">_result</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1aa9180a17c8ec28977928c815c3425a79"/>char_t <emphasis role="strong">_scratch</emphasis> [32]</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__parser_1aac6807af7e22c84fd94dea07dd647bd7"/>size_t <emphasis role="strong">_depth</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

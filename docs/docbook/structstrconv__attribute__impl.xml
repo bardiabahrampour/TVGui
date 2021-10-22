@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structstrconv__attribute__impl" xml:lang="en-US">
+<title>strconv_attribute_impl&lt; opt_escape &gt; Struct Template Reference</title>
+<indexterm><primary>strconv_attribute_impl&lt; opt_escape &gt;</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structstrconv__attribute__impl_1a9b7f8b1e860c5d022dbd29f9a89e9e27"/>static char_t * <emphasis role="strong">parse_wnorm</emphasis> (char_t *s, char_t end_quote)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structstrconv__attribute__impl_1a2d39998b79896af7c53c5f3dc22a526b"/>static char_t * <emphasis role="strong">parse_wconv</emphasis> (char_t *s, char_t end_quote)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structstrconv__attribute__impl_1a0f57ee9d69b9d626765f4a9c8af6df2e"/>static char_t * <emphasis role="strong">parse_eol</emphasis> (char_t *s, char_t end_quote)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structstrconv__attribute__impl_1a8358dc980178e55c8669b9dcd04872d7"/>static char_t * <emphasis role="strong">parse_simple</emphasis> (char_t *s, char_t end_quote)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

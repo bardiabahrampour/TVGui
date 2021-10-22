@@ -2,6 +2,7 @@
 #include <string>
 #include <pugixml/pugixml.hpp>
 #include "raywin.h"
+#include "tvTheme.h"
 
 class tvApp
 {

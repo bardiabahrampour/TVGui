@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classtv_window" xml:lang="en-US">
+<title>tvWindow Class Reference</title>
+<indexterm><primary>tvWindow</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classtv_window_1ac0eb1e62021f81da807d5275c2ee18fb"/><emphasis role="strong">tvWindow</emphasis> (int sizex, int sizey, std::string winname)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classtv_window_1a549c0876eca620f9ae7d71841b930052"/>void <emphasis role="strong">UpdateSize</emphasis> (int screensize)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following files:</para>
+D:/tvgui/TVGui/tvWindow.hD:/tvgui/TVGui/tvWindow.cpp</section>

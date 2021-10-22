@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structxpath__memory__block" xml:lang="en-US">
+<title>xpath_memory_block Struct Reference</title>
+<indexterm><primary>xpath_memory_block</primary></indexterm>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxpath__memory__block_1ab7f0d8400b40a51cdb063e76fd19a93c"/><link linkend="_structxpath__memory__block">xpath_memory_block</link> * <emphasis role="strong">next</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__memory__block_1ab3adef89fe1cb7c50ca6ce5708ff9316"/>size_t <emphasis role="strong">capacity</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__memory__block_1a916b16655b3861b7f5d78a8d052f71b8"/>union {</para>
+        <itemizedlist>
+            <listitem><para>   char <emphasis role="strong">data</emphasis> [xpath_memory_page_size]</para>
+</listitem>
+            <listitem><para>   double <emphasis role="strong">alignment</emphasis></para>
+</listitem>
+        </itemizedlist>
+</listitem>
+            <listitem><para>}; </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classtv_app" xml:lang="en-US">
+<title>tvApp Class Reference</title>
+<indexterm><primary>tvApp</primary></indexterm>
+<simplesect>
+    <title>Protected Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classtv_app_1a4dda26729fbcc227f5977c3ec5648621"/>std::string <emphasis role="strong">window_name</emphasis> {}</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classtv_app_1a41a874acb1f0c5e707f6740ad220932f"/>unsigned int <emphasis role="strong">window_sizex</emphasis> {}</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classtv_app_1a51c2dab78e0e858d0997ef4b43076378"/>unsigned int <emphasis role="strong">window_sizey</emphasis> {}</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following files:</para>
+D:/tvgui/TVGui/tvApp.hD:/tvgui/TVGui/tvApp.cpp</section>

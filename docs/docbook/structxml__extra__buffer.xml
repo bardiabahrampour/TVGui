@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structxml__extra__buffer" xml:lang="en-US">
+<title>xml_extra_buffer Struct Reference</title>
+<indexterm><primary>xml_extra_buffer</primary></indexterm>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxml__extra__buffer_1ab24b191b25f92ad4d48009978ebee38c"/>char_t * <emphasis role="strong">buffer</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxml__extra__buffer_1a8aaafa90868ca4d8e06b21eeabd96183"/><link linkend="_structxml__extra__buffer">xml_extra_buffer</link> * <emphasis role="strong">next</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

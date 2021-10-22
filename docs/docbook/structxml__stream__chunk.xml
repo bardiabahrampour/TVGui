@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structxml__stream__chunk" xml:lang="en-US">
+<title>xml_stream_chunk&lt; T &gt; Struct Template Reference</title>
+<indexterm><primary>xml_stream_chunk&lt; T &gt;</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxml__stream__chunk_1a92cffe33c529ff266329fd4afb59226d"/>static <link linkend="_structxml__stream__chunk">xml_stream_chunk</link> * <emphasis role="strong">create</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxml__stream__chunk_1a3e9bf7280c96a7433d60af129873a16f"/>static void <emphasis role="strong">destroy</emphasis> (<link linkend="_structxml__stream__chunk">xml_stream_chunk</link> *chunk)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxml__stream__chunk_1ad00071f7340adb2bde7c4157d4100b3c"/><link linkend="_structxml__stream__chunk">xml_stream_chunk</link> * <emphasis role="strong">next</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxml__stream__chunk_1a42618ba3b7bda1246cfc640149fc34eb"/>size_t <emphasis role="strong">size</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxml__stream__chunk_1a365e2e228a0277467b25a0fea42b8518"/>T <emphasis role="strong">data</emphasis> [xml_memory_page_size/sizeof(T)]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

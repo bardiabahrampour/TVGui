@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structxpath__allocator" xml:lang="en-US">
+<title>xpath_allocator Struct Reference</title>
+<indexterm><primary>xpath_allocator</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxpath__allocator_1af2c04c365636405fcade786bc535b9c4"/><emphasis role="strong">xpath_allocator</emphasis> (<link linkend="_structxpath__memory__block">xpath_memory_block</link> *root, bool *error=0)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__allocator_1aad95aa445f2fdc7c3d1c19b1f3d67cb1"/>void * <emphasis role="strong">allocate</emphasis> (size_t size)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__allocator_1a4dd502389202ec8e7420832112a571e5"/>void * <emphasis role="strong">reallocate</emphasis> (void *ptr, size_t old_size, size_t new_size)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__allocator_1af1c3ec117935d4488bbd16adf807fbc1"/>void <emphasis role="strong">revert</emphasis> (const <link linkend="_structxpath__allocator">xpath_allocator</link> &amp;state)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__allocator_1a9436b8bdef3e0e0ff0df28c2af6a430d"/>void <emphasis role="strong">release</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxpath__allocator_1ace647e1e57dd658b4bbcd3b18fb567f1"/><link linkend="_structxpath__memory__block">xpath_memory_block</link> * <emphasis role="strong">_root</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__allocator_1adc703a6c3f3a0435f8b5f2e6c770b3fe"/>size_t <emphasis role="strong">_root_size</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__allocator_1a02bbb00b33ec7254cbf85dc553ad0e09"/>bool * <emphasis role="strong">_error</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

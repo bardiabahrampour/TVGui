@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structxml__parser" xml:lang="en-US">
+<title>xml_parser Struct Reference</title>
+<indexterm><primary>xml_parser</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxml__parser_1a062d6951738847e674b538a677c8c5f0"/><emphasis role="strong">xml_parser</emphasis> (<link linkend="_structxml__allocator">xml_allocator</link> *alloc_)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxml__parser_1a722853b603ad9a1d1f61bb8115bea5b4"/>char_t * <emphasis role="strong">parse_doctype_primitive</emphasis> (char_t *s)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxml__parser_1a1e996ac9c9993f1939128859596376a1"/>char_t * <emphasis role="strong">parse_doctype_ignore</emphasis> (char_t *s)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxml__parser_1a7804219124faeee80c00a967d16f23e3"/>char_t * <emphasis role="strong">parse_doctype_group</emphasis> (char_t *s, char_t endch)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxml__parser_1a40da52e4b27a0a06752930a0edf16fe9"/>char_t * <emphasis role="strong">parse_exclamation</emphasis> (char_t *s, xml_node_struct *cursor, unsigned int optmsk, char_t endch)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxml__parser_1a2b0edc4fbf2ff448b4d5b31593c5c4fd"/>char_t * <emphasis role="strong">parse_question</emphasis> (char_t *s, xml_node_struct *&amp;ref_cursor, unsigned int optmsk, char_t endch)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxml__parser_1a96e76ebea8834b3e56e1c8646e593da4"/>char_t * <emphasis role="strong">parse_tree</emphasis> (char_t *s, xml_node_struct *root, unsigned int optmsk, char_t endch)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxml__parser_1af0a3f5a488b05da9fa2c87e1dd1f9eda"/>static char_t * <emphasis role="strong">parse_skip_bom</emphasis> (char_t *s)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxml__parser_1a6be4da5b3206913d0e3bd8320394df41"/>static bool <emphasis role="strong">has_element_node_siblings</emphasis> (xml_node_struct *node)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxml__parser_1a4bf0acd166edf3fc6cc9543002ff6f5d"/>static xml_parse_result <emphasis role="strong">parse</emphasis> (char_t *buffer, size_t length, <link linkend="_structxml__document__struct">xml_document_struct</link> *xmldoc, xml_node_struct *root, unsigned int optmsk)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxml__parser_1a48f48b81a9a222b8bcb79f95024faad8"/><link linkend="_structxml__allocator">xml_allocator</link> * <emphasis role="strong">alloc</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxml__parser_1a2476a71cd7e67b3f4bdbcd1323524503"/>char_t * <emphasis role="strong">error_offset</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxml__parser_1a0555859911674e5a7a349447d6533383"/>xml_parse_status <emphasis role="strong">error_status</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

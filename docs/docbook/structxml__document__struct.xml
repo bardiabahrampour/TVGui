@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structxml__document__struct" xml:lang="en-US">
+<title>xml_document_struct Struct Reference</title>
+<indexterm><primary>xml_document_struct</primary></indexterm>
+<para>Inheritance diagram for xml_document_struct:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="structxml__document__struct.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxml__document__struct_1aea3482436c20abd98ca063c3bd5dcfba"/><emphasis role="strong">xml_document_struct</emphasis> (<link linkend="_structxml__memory__page">xml_memory_page</link> *page)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxml__document__struct_1a120451f29b8cc2a82a3ecc926449ea0e"/>const char_t * <emphasis role="strong">buffer</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxml__document__struct_1afe3b1efd5b683c306157244496f55c4b"/><link linkend="_structxml__extra__buffer">xml_extra_buffer</link> * <emphasis role="strong">extra_buffers</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

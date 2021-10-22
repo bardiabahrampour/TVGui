@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structlatin1__writer" xml:lang="en-US">
+<title>latin1_writer Struct Reference</title>
+<indexterm><primary>latin1_writer</primary></indexterm>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structlatin1__writer_1af9228600fa7eecd793cc3d927d46eb1a"/>typedef uint8_t * <emphasis role="strong">value_type</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structlatin1__writer_1ab5d7a833d29d66031420686ca67b1f6e"/>static value_type <emphasis role="strong">low</emphasis> (value_type result, uint32_t ch)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structlatin1__writer_1a0e48c306ebe556f267404a9624f00554"/>static value_type <emphasis role="strong">high</emphasis> (value_type result, uint32_t ch)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

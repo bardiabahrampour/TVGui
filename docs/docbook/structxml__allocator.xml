@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structxml__allocator" xml:lang="en-US">
+<title>xml_allocator Struct Reference</title>
+<indexterm><primary>xml_allocator</primary></indexterm>
+<para>Inheritance diagram for xml_allocator:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="structxml__allocator.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxml__allocator_1ad41b1a18595953aa71a470b45921c0fd"/><emphasis role="strong">xml_allocator</emphasis> (<link linkend="_structxml__memory__page">xml_memory_page</link> *root)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxml__allocator_1a4b399b01e530220ec5849b912b84063b"/><link linkend="_structxml__memory__page">xml_memory_page</link> * <emphasis role="strong">allocate_page</emphasis> (size_t data_size)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxml__allocator_1a30bb557bc040de54c041c6d3dca6772e"/>void * <emphasis role="strong">allocate_memory_oob</emphasis> (size_t size, <link linkend="_structxml__memory__page">xml_memory_page</link> *&amp;out_page)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxml__allocator_1afac0b9fac2c2962972f60d0346eb4f39"/>void * <emphasis role="strong">allocate_memory</emphasis> (size_t size, <link linkend="_structxml__memory__page">xml_memory_page</link> *&amp;out_page)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxml__allocator_1a5c7a0614c72c3e73f561bb3f98c314e0"/>void * <emphasis role="strong">allocate_object</emphasis> (size_t size, <link linkend="_structxml__memory__page">xml_memory_page</link> *&amp;out_page)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxml__allocator_1a5df417155487cce4e0460b123ac33dc6"/>void <emphasis role="strong">deallocate_memory</emphasis> (void *ptr, size_t size, <link linkend="_structxml__memory__page">xml_memory_page</link> *page)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxml__allocator_1ac5ec2b5d41672d6494a2742e95e525b3"/>char_t * <emphasis role="strong">allocate_string</emphasis> (size_t length)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxml__allocator_1af32c538db4d562c2d0bfe15f7c0aa879"/>void <emphasis role="strong">deallocate_string</emphasis> (char_t *string)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxml__allocator_1ac831a283ec3bcbe22fd3ce3be98ec347"/>bool <emphasis role="strong">reserve</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxml__allocator_1a1c6bfe15a257a094f55659f8d71c209e"/>static void <emphasis role="strong">deallocate_page</emphasis> (<link linkend="_structxml__memory__page">xml_memory_page</link> *page)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxml__allocator_1a38082e85b23743620a257f997a00bb69"/><link linkend="_structxml__memory__page">xml_memory_page</link> * <emphasis role="strong">_root</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxml__allocator_1a4908b4aaa8cbbc3bf936ab8a938053c0"/>size_t <emphasis role="strong">_busy_size</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

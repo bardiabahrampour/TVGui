@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classxpath__node__set__raw" xml:lang="en-US">
+<title>xpath_node_set_raw Class Reference</title>
+<indexterm><primary>xpath_node_set_raw</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classxpath__node__set__raw_1a3a3ab8b9461e28910375cbbdd239b980"/>xpath_node * <emphasis role="strong">begin</emphasis> () const</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxpath__node__set__raw_1a44198ae887e8ed414e6bf0cb7df17658"/>xpath_node * <emphasis role="strong">end</emphasis> () const</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxpath__node__set__raw_1a95e517f4bb3d9d79f2f0a4c6c0ce42e5"/>bool <emphasis role="strong">empty</emphasis> () const</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxpath__node__set__raw_1a1e790772073ddeafd7fe93464acb1156"/>size_t <emphasis role="strong">size</emphasis> () const</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxpath__node__set__raw_1a8d937c8fa5c9001a6e40e861686aa5b4"/>xpath_node <emphasis role="strong">first</emphasis> () const</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxpath__node__set__raw_1acc913a940e63a136f862e243b4b7495e"/>void <emphasis role="strong">push_back_grow</emphasis> (const xpath_node &amp;node, <link linkend="_structxpath__allocator">xpath_allocator</link> *alloc)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxpath__node__set__raw_1a676ec123e5be874869c78ff5c43ae9c2"/>void <emphasis role="strong">push_back</emphasis> (const xpath_node &amp;node, <link linkend="_structxpath__allocator">xpath_allocator</link> *alloc)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxpath__node__set__raw_1a0c02728de3d895a2d12df9666d60e414"/>void <emphasis role="strong">append</emphasis> (const xpath_node *begin_, const xpath_node *end_, <link linkend="_structxpath__allocator">xpath_allocator</link> *alloc)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxpath__node__set__raw_1a5e46ee306afc24ea83f6c1181bba3600"/>void <emphasis role="strong">sort_do</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxpath__node__set__raw_1aba48d228f554065702f3e6d5059f701d"/>void <emphasis role="strong">truncate</emphasis> (xpath_node *pos)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxpath__node__set__raw_1a9c79c58b27de48b650f4e0e7c177e4b6"/>void <emphasis role="strong">remove_duplicates</emphasis> (<link linkend="_structxpath__allocator">xpath_allocator</link> *alloc)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxpath__node__set__raw_1a40f85691234070adc233cc2eac980fbf"/>xpath_node_set::type_t <emphasis role="strong">type</emphasis> () const</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxpath__node__set__raw_1ae73780271d772967f78ddd7b9376cdab"/>void <emphasis role="strong">set_type</emphasis> (xpath_node_set::type_t value)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

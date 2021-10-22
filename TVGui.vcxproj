@@ -165,6 +165,7 @@
     <ClInclude Include="raywin.h" />
     <ClInclude Include="tvApp.h" />
     <ClInclude Include="tvBackground.h" />
+    <ClInclude Include="tvString.hpp" />
     <ClInclude Include="tvTheme.h" />
     <ClInclude Include="tvWindow.h" />
   </ItemGroup>

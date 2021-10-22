@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structutf8__counter" xml:lang="en-US">
+<title>utf8_counter Struct Reference</title>
+<indexterm><primary>utf8_counter</primary></indexterm>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structutf8__counter_1adb65152c007965c42184614da9c4af1b"/>typedef size_t <emphasis role="strong">value_type</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structutf8__counter_1a0950643189089175ae0eac9b4193534d"/>static value_type <emphasis role="strong">low</emphasis> (value_type result, uint32_t ch)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structutf8__counter_1ab16e675980a15e1ede2e4cd18d19f7b1"/>static value_type <emphasis role="strong">high</emphasis> (value_type result, uint32_t)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

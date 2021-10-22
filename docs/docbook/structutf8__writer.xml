@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structutf8__writer" xml:lang="en-US">
+<title>utf8_writer Struct Reference</title>
+<indexterm><primary>utf8_writer</primary></indexterm>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structutf8__writer_1af25ec3c651f9a4a3f193573a4e95002b"/>typedef uint8_t * <emphasis role="strong">value_type</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structutf8__writer_1ac4ec52da6f37225ba4fde259bff2f86c"/>static value_type <emphasis role="strong">low</emphasis> (value_type result, uint32_t ch)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structutf8__writer_1ac03dfaf797d599afdf0be7def86ff9b9"/>static value_type <emphasis role="strong">high</emphasis> (value_type result, uint32_t ch)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structutf8__writer_1a288e9c5f3720b95ae6b77330ad38dd56"/>static value_type <emphasis role="strong">any</emphasis> (value_type result, uint32_t ch)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

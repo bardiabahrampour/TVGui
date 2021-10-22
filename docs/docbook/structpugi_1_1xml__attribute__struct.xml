@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structpugi_1_1xml__attribute__struct" xml:lang="en-US">
+<title>pugi::xml_attribute_struct Struct Reference</title>
+<indexterm><primary>pugi::xml_attribute_struct</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structpugi_1_1xml__attribute__struct_1a57bb21cb72613e746a659efdd6425b94"/><emphasis role="strong">xml_attribute_struct</emphasis> (impl::xml_memory_page *page)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structpugi_1_1xml__attribute__struct_1a0dca6ca6c129bbf87a7ebaf87f3e12de"/>uintptr_t <emphasis role="strong">header</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structpugi_1_1xml__attribute__struct_1aa886c4aae23a132e1704717721ee2c19"/>char_t * <emphasis role="strong">name</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structpugi_1_1xml__attribute__struct_1ae652627d56cb9dcc0afdd1fbf6570364"/>char_t * <emphasis role="strong">value</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structpugi_1_1xml__attribute__struct_1a0e3a022235b316e4cfc1034ceb7d7862"/><link linkend="_structpugi_1_1xml__attribute__struct">xml_attribute_struct</link> * <emphasis role="strong">prev_attribute_c</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structpugi_1_1xml__attribute__struct_1a9860c0eb7fa72dc9b69ee9b0575f9efc"/><link linkend="_structpugi_1_1xml__attribute__struct">xml_attribute_struct</link> * <emphasis role="strong">next_attribute</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

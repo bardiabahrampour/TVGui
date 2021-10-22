@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structxpath__variable__number" xml:lang="en-US">
+<title>xpath_variable_number Struct Reference</title>
+<indexterm><primary>xpath_variable_number</primary></indexterm>
+<para>Inheritance diagram for xpath_variable_number:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="structxpath__variable__number.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxpath__variable__number_1a49949397348e7c941d88a694ec5c8e57"/>double <emphasis role="strong">value</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__variable__number_1a2bf4163dab1a8e233d45677fee987f0f"/>char_t <emphasis role="strong">name</emphasis> [1]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

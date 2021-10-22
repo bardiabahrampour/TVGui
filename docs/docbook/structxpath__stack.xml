@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structxpath__stack" xml:lang="en-US">
+<title>xpath_stack Struct Reference</title>
+<indexterm><primary>xpath_stack</primary></indexterm>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxpath__stack_1adce164b779cbb3d1bc093a772067ea7e"/><link linkend="_structxpath__allocator">xpath_allocator</link> * <emphasis role="strong">result</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__stack_1a48edd585dfb910c6c016559f07fea0d8"/><link linkend="_structxpath__allocator">xpath_allocator</link> * <emphasis role="strong">temp</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

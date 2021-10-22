@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classxpath__string" xml:lang="en-US">
+<title>xpath_string Class Reference</title>
+<indexterm><primary>xpath_string</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classxpath__string_1aab0d867c56d390213cf0fbe7334e1cc0"/>void <emphasis role="strong">append</emphasis> (const <link linkend="_classxpath__string">xpath_string</link> &amp;o, <link linkend="_structxpath__allocator">xpath_allocator</link> *alloc)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxpath__string_1a8298e0e49ac4cfe52ea31f178dc094c4"/>const char_t * <emphasis role="strong">c_str</emphasis> () const</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxpath__string_1a8469bd7512df66adabd3f5144c4b2ef7"/>size_t <emphasis role="strong">length</emphasis> () const</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxpath__string_1ade42a938746bcba171b70bfb88c3c568"/>char_t * <emphasis role="strong">data</emphasis> (<link linkend="_structxpath__allocator">xpath_allocator</link> *alloc)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxpath__string_1a46087349c9a2d297ea127018949bc012"/>bool <emphasis role="strong">empty</emphasis> () const</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxpath__string_1ac42c0dd15445de88c09dfdeed93d5660"/>bool <emphasis role="strong">operator==</emphasis> (const <link linkend="_classxpath__string">xpath_string</link> &amp;o) const</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxpath__string_1a8976b1e54152b806a13996a6140499b4"/>bool <emphasis role="strong">operator!=</emphasis> (const <link linkend="_classxpath__string">xpath_string</link> &amp;o) const</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxpath__string_1a48e69f228ffe1eb33c3831fc8aa65536"/>bool <emphasis role="strong">uses_heap</emphasis> () const</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classxpath__string_1a6dce01c6b3a949c3c4c886e6be44931e"/>static <link linkend="_classxpath__string">xpath_string</link> <emphasis role="strong">from_const</emphasis> (const char_t *str)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxpath__string_1a37e13c2dc384cac842cee3870e9e9e23"/>static <link linkend="_classxpath__string">xpath_string</link> <emphasis role="strong">from_heap_preallocated</emphasis> (const char_t *begin, const char_t *end)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxpath__string_1aaf1229b7a7ae918b41bf995df16c8896"/>static <link linkend="_classxpath__string">xpath_string</link> <emphasis role="strong">from_heap</emphasis> (const char_t *begin, const char_t *end, <link linkend="_structxpath__allocator">xpath_allocator</link> *alloc)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structnamespace__uri__predicate" xml:lang="en-US">
+<title>namespace_uri_predicate Struct Reference</title>
+<indexterm><primary>namespace_uri_predicate</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structnamespace__uri__predicate_1a25bef9c1e12b0fdc908275ae7ab7c202"/><emphasis role="strong">namespace_uri_predicate</emphasis> (const char_t *name)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structnamespace__uri__predicate_1abeb31bcbfaa60f9cee21a4dc6cb59073"/>bool <emphasis role="strong">operator()</emphasis> (xml_attribute a) const</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structnamespace__uri__predicate_1a80a2c051b9e57b8895c28d8fcc32e051"/>const char_t * <emphasis role="strong">prefix</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structnamespace__uri__predicate_1aa48279192e8d48b9c798f5485a2a9170"/>size_t <emphasis role="strong">prefix_length</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

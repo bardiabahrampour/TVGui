@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structxml__memory__management__function__storage" xml:lang="en-US">
+<title>xml_memory_management_function_storage&lt; T &gt; Struct Template Reference</title>
+<indexterm><primary>xml_memory_management_function_storage&lt; T &gt;</primary></indexterm>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxml__memory__management__function__storage_1abb6865f8d07d27fd9273737c59f6e941"/>static allocation_function <emphasis role="strong">allocate</emphasis> = default_allocate</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxml__memory__management__function__storage_1a1c80a9a045ed6cfb90b17a178e4b3512"/>static deallocation_function <emphasis role="strong">deallocate</emphasis> = default_deallocate</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

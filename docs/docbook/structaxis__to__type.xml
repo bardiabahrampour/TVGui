@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structaxis__to__type" xml:lang="en-US">
+<title>axis_to_type&lt; N &gt; Struct Template Reference</title>
+<indexterm><primary>axis_to_type&lt; N &gt;</primary></indexterm>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structaxis__to__type_1ac9d75681918ad98c980db0f49b570b50"/>static const axis_t <emphasis role="strong">axis</emphasis> = N</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

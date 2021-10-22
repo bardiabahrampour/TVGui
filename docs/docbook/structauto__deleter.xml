@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structauto__deleter" xml:lang="en-US">
+<title>auto_deleter&lt; T &gt; Struct Template Reference</title>
+<indexterm><primary>auto_deleter&lt; T &gt;</primary></indexterm>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structauto__deleter_1ac6fa4a02518acd2bf40357f207fab0a7"/>typedef void(* <emphasis role="strong">D</emphasis>) (T *)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structauto__deleter_1a2740bca25a73f65af24cc99b07da0370"/><emphasis role="strong">auto_deleter</emphasis> (T *data_, D deleter_)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structauto__deleter_1af395b878141c8dd3c66833238be812fe"/>T * <emphasis role="strong">release</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structauto__deleter_1a7c75a965dd01e6ac965b930a75ea3659"/>T * <emphasis role="strong">data</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structauto__deleter_1a306ab6a225284bd12cae5374fea13fe3"/>D <emphasis role="strong">deleter</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

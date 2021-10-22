@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structxpath__allocator__capture" xml:lang="en-US">
+<title>xpath_allocator_capture Struct Reference</title>
+<indexterm><primary>xpath_allocator_capture</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxpath__allocator__capture_1af6925e08c811c0cbda74d4da5b9f2eed"/><emphasis role="strong">xpath_allocator_capture</emphasis> (<link linkend="_structxpath__allocator">xpath_allocator</link> *alloc)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxpath__allocator__capture_1a382acca931c691699ec84a03fb060cf4"/><link linkend="_structxpath__allocator">xpath_allocator</link> * <emphasis role="strong">_target</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__allocator__capture_1a275859dc99681c12b42ee4f51b713d39"/><link linkend="_structxpath__allocator">xpath_allocator</link> <emphasis role="strong">_state</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

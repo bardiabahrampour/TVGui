@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structxml__memory__string__header" xml:lang="en-US">
+<title>xml_memory_string_header Struct Reference</title>
+<indexterm><primary>xml_memory_string_header</primary></indexterm>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxml__memory__string__header_1a0cc274672f1263f73eeb6bf839bf96ee"/>uint16_t <emphasis role="strong">page_offset</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxml__memory__string__header_1abbb48a709081e6610dffad322499e3f7"/>uint16_t <emphasis role="strong">full_size</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

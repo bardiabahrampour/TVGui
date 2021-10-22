@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structgap" xml:lang="en-US">
+<title>gap Struct Reference</title>
+<indexterm><primary>gap</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structgap_1a9c0d0b12bc778c8439c8aec7747ab2b0"/>void <emphasis role="strong">push</emphasis> (char_t *&amp;s, size_t count)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structgap_1a176c58ee8d57c41b91ae9f00d5e8cab5"/>char_t * <emphasis role="strong">flush</emphasis> (char_t *s)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structgap_1a1fafd4d9909a3413f723f24e46dfde0e"/>char_t * <emphasis role="strong">end</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structgap_1ad5bb3597ade78d89bbe0e300748ad508"/>size_t <emphasis role="strong">size</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

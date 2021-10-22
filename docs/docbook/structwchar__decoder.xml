@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structwchar__decoder" xml:lang="en-US">
+<title>wchar_decoder Struct Reference</title>
+<indexterm><primary>wchar_decoder</primary></indexterm>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structwchar__decoder_1aafb01f17f51c610468f88b8820e36b7a"/>typedef wchar_t <emphasis role="strong">type</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structwchar__decoder_1a965801bc1ce931281e10ee153586071c"/>template&lt;typename Traits &gt; </para><para>static Traits::value_type <emphasis role="strong">process</emphasis> (const wchar_t *data, size_t size, typename Traits::value_type result, Traits traits)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

@@ -1,13 +1,11 @@
 #pragma once
 #include <raylib.h>
 #include <string>
-/*
-		You Can Define THEME_MULTI_COLOR in Order to Use All Four Colors But it is Disabled by Default to Save Memmory
-*/
 class tvTheme
 {
 	Color primary, secondary; 
 
+//You Can Define THEME_MULTI_COLOR In Order To Use Up to 4 Colors In Your Theme But It Is Disabled By Default 
 #ifdef THEME_MULTI_COLOR 
 	Color third, fourth; 
 #endif

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structxpath__lexer__string" xml:lang="en-US">
+<title>xpath_lexer_string Struct Reference</title>
+<indexterm><primary>xpath_lexer_string</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxpath__lexer__string_1a6f8de9b104eef39a7d901d25363cc158"/>bool <emphasis role="strong">operator==</emphasis> (const char_t *other) const</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxpath__lexer__string_1a0b985863d7363a75d4fdd0a7ece1fca0"/>const char_t * <emphasis role="strong">begin</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__lexer__string_1a13bbedeca2f8c2fb1e294325eea66878"/>const char_t * <emphasis role="strong">end</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

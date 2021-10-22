@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classxml__buffered__writer" xml:lang="en-US">
+<title>xml_buffered_writer Class Reference</title>
+<indexterm><primary>xml_buffered_writer</primary></indexterm>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classxml__buffered__writer_1a684aec07739ea6e60d47440eee97b4f6"/>enum { <emphasis role="strong">bufcapacitybytes</emphasis>
+, <emphasis role="strong">bufcapacity</emphasis> = bufcapacitybytes / (sizeof(char_t) + 4)
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classxml__buffered__writer_1a3c22ad246e2aebb6597935baf4a223a7"/><emphasis role="strong">xml_buffered_writer</emphasis> (xml_writer &amp;writer_, xml_encoding user_encoding)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxml__buffered__writer_1a4789b8661f9ff4e5e4bb4226f7d45997"/>size_t <emphasis role="strong">flush</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxml__buffered__writer_1aa733cb2cd0d5fcacec92c67a7f26c553"/>void <emphasis role="strong">flush</emphasis> (const char_t *data, size_t size)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxml__buffered__writer_1a119f9db2f60e578e69ac81177e932fb3"/>void <emphasis role="strong">write_direct</emphasis> (const char_t *data, size_t length)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxml__buffered__writer_1ae62b84beff660555acb76e277f967c0d"/>void <emphasis role="strong">write_buffer</emphasis> (const char_t *data, size_t length)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxml__buffered__writer_1a1699556c38e942f7c1db1b98ddf15642"/>void <emphasis role="strong">write_string</emphasis> (const char_t *data)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxml__buffered__writer_1a1aa829bd551a69dd9005d2d46063308f"/>void <emphasis role="strong">write</emphasis> (char_t d0)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxml__buffered__writer_1a4cd6e908908e17c9b07eba34f7317791"/>void <emphasis role="strong">write</emphasis> (char_t d0, char_t d1)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxml__buffered__writer_1af82b277c1ef5c75d1901bb5a8eb4507f"/>void <emphasis role="strong">write</emphasis> (char_t d0, char_t d1, char_t d2)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxml__buffered__writer_1af679f459dfa0af257c190b8db57e7dcb"/>void <emphasis role="strong">write</emphasis> (char_t d0, char_t d1, char_t d2, char_t d3)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxml__buffered__writer_1aad4a4f18223ec3cb1ff607425119b85f"/>void <emphasis role="strong">write</emphasis> (char_t d0, char_t d1, char_t d2, char_t d3, char_t d4)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxml__buffered__writer_1ae6af5067d768c24b9c20422f76737f29"/>void <emphasis role="strong">write</emphasis> (char_t d0, char_t d1, char_t d2, char_t d3, char_t d4, char_t d5)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classxml__buffered__writer_1a84c87765fbdf444d981ffb0f67899dd4"/>char_t <emphasis role="strong">buffer</emphasis> [bufcapacity]</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxml__buffered__writer_1a92c8d076027642039d1a1df5f77c7fe5"/>union {</para>
+        <itemizedlist>
+            <listitem><para>   uint8_t <emphasis role="strong">data_u8</emphasis> [4 *bufcapacity]</para>
+</listitem>
+            <listitem><para>   uint16_t <emphasis role="strong">data_u16</emphasis> [2 *bufcapacity]</para>
+</listitem>
+            <listitem><para>   uint32_t <emphasis role="strong">data_u32</emphasis> [bufcapacity]</para>
+</listitem>
+            <listitem><para>   char_t <emphasis role="strong">data_char</emphasis> [bufcapacity]</para>
+</listitem>
+        </itemizedlist>
+</listitem>
+            <listitem><para>} <emphasis role="strong">scratch</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxml__buffered__writer_1a37cdd45f867937e1978565f5a0fa318b"/>xml_writer &amp; <emphasis role="strong">writer</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxml__buffered__writer_1a6bad6a93035d796939d84bee30e74ce7"/>size_t <emphasis role="strong">bufsize</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxml__buffered__writer_1ab810a7286598172e1549561b285f08fb"/>xml_encoding <emphasis role="strong">encoding</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

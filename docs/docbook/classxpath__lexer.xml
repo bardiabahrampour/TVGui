@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classxpath__lexer" xml:lang="en-US">
+<title>xpath_lexer Class Reference</title>
+<indexterm><primary>xpath_lexer</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_classxpath__lexer_1aa52661c9ba7dfa262d3ab49f578653c3"/><emphasis role="strong">xpath_lexer</emphasis> (const char_t *query)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxpath__lexer_1a8a753887f59ce7d55f6f9be88fbf4238"/>const char_t * <emphasis role="strong">state</emphasis> () const</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxpath__lexer_1a32684b3097fccb4d626da620b44b72ad"/>void <emphasis role="strong">next</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxpath__lexer_1a47425d5012741aecfd898306651439d0"/>lexeme_t <emphasis role="strong">current</emphasis> () const</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxpath__lexer_1a72ab988b8ed95cb22441fdec600a6e58"/>const char_t * <emphasis role="strong">current_pos</emphasis> () const</para>
+</listitem>
+            <listitem><para><anchor xml:id="_classxpath__lexer_1a3a0b50cbd97ef5485b82aa53eda850fa"/>const <link linkend="_structxpath__lexer__string">xpath_lexer_string</link> &amp; <emphasis role="strong">contents</emphasis> () const</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>

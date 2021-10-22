@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structxpath__stack__data" xml:lang="en-US">
+<title>xpath_stack_data Struct Reference</title>
+<indexterm><primary>xpath_stack_data</primary></indexterm>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_structxpath__stack__data_1a6821cc444dd65d997467fd3f757f4aff"/><link linkend="_structxpath__memory__block">xpath_memory_block</link> <emphasis role="strong">blocks</emphasis> [2]</para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__stack__data_1ab073a685c66383ded44076993afe62d6"/><link linkend="_structxpath__allocator">xpath_allocator</link> <emphasis role="strong">result</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__stack__data_1a56e6bb486d52f4c5c2d02370e1b41058"/><link linkend="_structxpath__allocator">xpath_allocator</link> <emphasis role="strong">temp</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__stack__data_1ad26a92328f9aaf83fa62cb6695dbee90"/><link linkend="_structxpath__stack">xpath_stack</link> <emphasis role="strong">stack</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_structxpath__stack__data_1a0a328a68288bc6ce9f9b15d98721c4ea"/>bool <emphasis role="strong">oom</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+D:/tvgui/TVGui/pugixml.cpp</section>
